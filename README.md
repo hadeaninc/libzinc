@@ -14,7 +14,7 @@ Zinc is a C++ library for spatial processing.
 ## TODO
 
  - The Morton code type is currently limited to a single word size, so the Dimension and BitsPerDimension are currently limited to 2,32 and 3,21.
-   - This is under active development
+   - This is under active [development](https://github.com/paddygord/bitarray)
 
 ## Usage
 
