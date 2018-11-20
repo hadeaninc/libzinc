@@ -2,11 +2,14 @@
 
 Zinc is a C++ library for spatial processing.
  - Zinc provides efficient functions for processing Morton codes, and things built from Morton codes.
+   - Currently only Morton curves because they are the easiest to implement and the only space filling curve on which some functions can be implemented, see get_next_z_address
  - Intervals are a start and end point on the Morton curve.
  - Regions are a finite list of intervals, able to represent arbitrary regions in N-dimensional space.
    - Morton regions a.k.a. linear octree
  - Intervals and Regions can store data, so they can be used as map types, not just set types.
  - AABBs (Axis-Aligned Bounding Boxes) can be used for creating regions
+ - Regions have all the boolean set operations implemented on them apart from Xor: union, intersection, subtraction
+ - They can be efficiently indexed by position
  - This is alpha software, but it may be useful
 
 [Read our blog](LINK HERE) for more detail
