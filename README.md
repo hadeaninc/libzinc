@@ -6,7 +6,7 @@ Zinc is a C++ library for spatial processing.
  - Regions are a finite list of intervals, able to represent arbitrary regions in N-dimensional space.
    - Morton regions a.k.a. linear octree
  - Intervals and Regions can store data, so they can be used as map types, not just set types.
- - AABB (Axis-Aligned Bounding Boxes) can be used for creating regions
+ - AABBs (Axis-Aligned Bounding Boxes) can be used for creating regions
  - This is alpha software, but it may be useful
 
 [Read our blog](LINK HERE) for more detail
@@ -23,6 +23,7 @@ For usage examples, see `test/zinc-test.cc`
 ## Dependencies
 
  - A C++17 compiler, we use clang++ by default for better sanitisation
+
 For testing and installing:
  - [Meson](https://mesonbuild.com/) `sudo apt install meson`
 
