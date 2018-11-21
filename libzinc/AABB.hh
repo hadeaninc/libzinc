@@ -13,7 +13,7 @@
 #include <libzinc/region.hh>
 #include <immintrin.h>
 
-namespace aether {
+namespace zinc {
 
 namespace morton {
 
@@ -289,4 +289,4 @@ std::pair<morton_code<Dimension, BitsPerDimension>, morton_code<Dimension, BitsP
 
 } //::morton
 
-} //::aether
+} //::zinc

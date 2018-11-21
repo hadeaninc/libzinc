@@ -6,7 +6,7 @@
 #include <libzinc/encoding.hh>
 #include <immintrin.h>
 
-namespace aether {
+namespace zinc {
 
 namespace morton {
 
@@ -129,4 +129,4 @@ static inline constexpr Integer compact_bits_2(Integer x) {
 
 } //::morton
 
-} //::aether
+} //::zinc

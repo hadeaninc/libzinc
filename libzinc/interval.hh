@@ -11,7 +11,7 @@
 #include <libzinc/util.hh>
 #include <immintrin.h>
 
-namespace aether {
+namespace zinc {
 
 namespace morton {
 
@@ -194,4 +194,4 @@ static interval<Dimension, BitsPerDimension, T> get_parent_cell(const interval<D
 
 } //::morton
 
-} //::aether
+} //::zinc

@@ -14,15 +14,15 @@ struct morton_code {
         "only 2D and 32 bits, or 3D and 21 bits are currently supported.");
 };
 
-using aether::morton::__morton_2_x_mask;
-using aether::morton::__morton_2_y_mask;
-using aether::morton::__morton_3_x_mask;
-using aether::morton::__morton_3_y_mask;
-using aether::morton::__morton_3_z_mask;
-using aether::morton::expand_bits_2;
-using aether::morton::compact_bits_2;
-using aether::morton::expand_bits_3;
-using aether::morton::compact_bits_3;
+using zinc::morton::__morton_2_x_mask;
+using zinc::morton::__morton_2_y_mask;
+using zinc::morton::__morton_3_x_mask;
+using zinc::morton::__morton_3_y_mask;
+using zinc::morton::__morton_3_z_mask;
+using zinc::morton::expand_bits_2;
+using zinc::morton::compact_bits_2;
+using zinc::morton::expand_bits_3;
+using zinc::morton::compact_bits_3;
 
 template<>
 struct morton_code<2, 32> {

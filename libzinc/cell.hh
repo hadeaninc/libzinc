@@ -24,12 +24,12 @@ struct tree_cell {
         return (c.data >> (level * c.dimension)) == (c.data >> (level * c.dimension));
     }
 
-    aether::morton::region<2,32> region() const {
+    zinc::morton::region<2,32> region() const {
     	return {{{code, code + (1 << (level * 2)) - 1}}};
     }
 
     template<typename T>
-    aether::morton::region<2,32, T> region(T data) const {
+    zinc::morton::region<2,32, T> region(T data) const {
         return {{{code, code + (1 << (level * 2)) - 1}, data}};
     }
 };

@@ -13,7 +13,7 @@
 #include <libzinc/interval.hh>
 #include <immintrin.h>
 
-namespace aether {
+namespace zinc {
 
 namespace morton {
 
@@ -288,4 +288,4 @@ static region<2,32,T> cell_to_region(uint64_t code, uint64_t level, T data) {
 
 } //::morton
 
-}//aether
+}//zinc
