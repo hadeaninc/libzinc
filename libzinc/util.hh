@@ -105,7 +105,7 @@ static inline constexpr Integer compact_bits_3(Integer v) {
 
 #else
 template<typename Integer>
-static_assert(sizeof(Integer) == 8, "non BMI2 expand/compact_bits_2 are not yet implemented");
+static_assert(sizeof(Integer) == 8, "non 64bit non BMI2 expand/compact_bits_2 are not yet implemented");
 static inline constexpr Integer expand_bits_2(Integer x) {
     x = (x ^ (x << 16)) & 0x0000ffff0000ffff;
     x = (x ^ (x << 8))  & 0x00ff00ff00ff00ff;
