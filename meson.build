@@ -1,4 +1,6 @@
-project('zinc', 'cpp')
+project('zinc', 'cpp',
+  default_options: ['b_sanitize=address', 'b_lundef=false']
+)
 
 add_project_arguments(
   '-mbmi2',
