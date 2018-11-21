@@ -32,7 +32,7 @@ For testing and installing:
 
 ## Configuring
 
-`./configure.sh`
+`CXX=clang++ meson out`
 
 ## Testing
 
