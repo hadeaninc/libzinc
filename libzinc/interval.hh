@@ -7,8 +7,8 @@
 #include <tuple>
 #include <optional>
 
-#include <libzinc/encoding.hh>
-#include <libzinc/util.hh>
+#include "encoding.hh"
+#include "util.hh"
 #include <immintrin.h>
 
 namespace zinc {

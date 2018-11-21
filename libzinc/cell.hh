@@ -2,7 +2,7 @@
 
 #include <cstdint>
 
-#include <libzinc/AABB.hh>
+#include "AABB.hh"
 
 //The coordinate of an octree cell.
 struct tree_cell {

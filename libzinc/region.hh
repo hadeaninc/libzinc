@@ -9,8 +9,8 @@
 #include <variant>
 #include <type_traits>
 
-#include <libzinc/encoding.hh>
-#include <libzinc/interval.hh>
+#include "encoding.hh"
+#include "interval.hh"
 #include <immintrin.h>
 
 namespace zinc {

@@ -6,7 +6,7 @@
 #include <array>
 #include <tuple>
 
-#include <libzinc/util.hh>
+#include "util.hh"
 
 template<uint32_t Dimension, uint32_t BitsPerDimension>
 struct morton_code {

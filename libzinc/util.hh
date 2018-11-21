@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <cassert>
 
-#include <libzinc/encoding.hh>
+#include "encoding.hh"
 #include <immintrin.h>
 
 namespace zinc {

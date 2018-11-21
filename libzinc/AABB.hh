@@ -9,8 +9,8 @@
 #include <variant>
 #include <type_traits>
 
-#include <libzinc/encoding.hh>
-#include <libzinc/region.hh>
+#include "encoding.hh"
+#include "region.hh"
 #include <immintrin.h>
 
 namespace zinc {
