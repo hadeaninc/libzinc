@@ -30,9 +30,9 @@ For usage examples, see `test/zinc-test.cc`
 For testing and installing:
  - [Meson](https://mesonbuild.com/) `sudo apt install meson`
 
-## Building
+## Configuring
 
-`./build.sh`
+`./configure.sh`
 
 ## Testing
 
