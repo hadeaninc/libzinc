@@ -25,10 +25,13 @@ For usage examples, see `test/zinc-test.cc`
 
 ## Dependencies
 
- - A C++17 compiler, we use clang++ by default for better sanitisation
+ - A C++17 compiler
 
 For testing and installing:
  - [Meson](https://mesonbuild.com/) `sudo apt install meson`
+ - we use clang++ >= 7 by default for better sanitisation
+   - for `-fsanitize=implicit-conversion` and `-fsanitize=integer`
+   - you can disable them in `meson.build`
 
 ## Configuring
 
