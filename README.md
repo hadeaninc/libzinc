@@ -12,7 +12,7 @@ Zinc is a C++ library for spatial processing.
  - They can be efficiently indexed by position
  - This is alpha software, but it may be useful
 
-[Read our blog](LINK HERE) for more detail
+[Read our blog](https://www.hadean.com/blog/open-source-library-for-spatial-representations) for more detail
 
 ## TODO
 
