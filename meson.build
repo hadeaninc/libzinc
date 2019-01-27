@@ -16,6 +16,10 @@ m_dep = cxx.find_library('m', required : false)
 
 incdir = include_directories('libzinc')
 
+glfw_dep = dependency('glfw3')
+cairo_dep = dependency('cairo')
+interactive_test = executable('interactive-test', 'test/interactive-test.cc', include_directories: incdir, dependencies: [m_dep, glfw_dep, cairo_dep])
+
 zinc_test = executable('zinc-test', 'test/zinc-test.cc', include_directories: incdir, dependencies: m_dep)
 test('zinc-test', zinc_test)
 
